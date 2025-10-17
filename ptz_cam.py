@@ -40,6 +40,18 @@ if __name__ == "__main__":
     cam.move("right", speed=45)
     
     time.sleep(2)
+
+    print("moving left")
+
+    cam.move("left", speed=45)
+
+    time.sleep(2)
+
+    print("moving more left")
+    
+    cam.move("left", speed=45)
+
+    time.sleep(2)
     
     print("Stopping...")
     cam.stop()
